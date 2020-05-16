@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3340FF;
+    margin: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px 24px;
+    background-color: #FFC300;
+}
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+}

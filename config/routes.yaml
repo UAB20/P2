@@ -65,3 +65,8 @@ moises_dorin:
 denis_padureanu:
   path: /denis_padureanu
   controller: App\Controller\PadureanuDenis::number
+
+pojar_alexandru:
+  path: /pojar_alexandru
+  controller: App\Controller\PojarAlexandru::homepage
+
