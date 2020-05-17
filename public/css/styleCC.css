@@ -1,0 +1,18 @@
+img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+} 
+body {
+    background-color: #979b9d;
+    margin: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px 24px;
+    background-color: #b5c1c242;
+}

@@ -70,3 +70,10 @@ pojar_alexandru:
   path: /pojar_alexandru
   controller: App\Controller\PojarAlexandru::homepage
 
+teoc_lucian:
+  path: /teoc_lucian
+  controller: App\Controller\TeocLucianController::personalPage
+
+catalinRoute:
+    path: /catalinchinchisan
+    controller: App\Controller\catalinCtrl::init 
