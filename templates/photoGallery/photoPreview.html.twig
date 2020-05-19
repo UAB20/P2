@@ -1,0 +1,16 @@
+    <link rel="stylesheet" href="{{ asset("css/styleCC.css") }}">
+<body>
+    <div class="container">
+        <div style="text-align: center;">
+            <h2>{{previewData.title}}</h2>
+        </div>
+        <div style="margin-top: -100px;">
+            <a class="button  back" href="{{ path('photoGallery') }}">Back</a>
+        </div>
+        <div> 
+            <div style="background-image:url('{{ asset(previewData.path) }}'); margin:auto; width:700px;height:700px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+                {# <img src="{{ asset(previewData.path) }}" alt="{{previewData.title}}"> #}
+            </div>
+        </div>
+    </div>
+</body>
