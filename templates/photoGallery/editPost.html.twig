@@ -1,0 +1,16 @@
+
+    <link rel="stylesheet" href="{{ asset("css/styleCC.css") }}">
+
+<body>
+    <div class="container">
+        <div>
+        <a class="button back" href="{{ path('photoGallery') }}">Back</a>
+        </div>
+        <div>
+        <img src="{{ asset(post.path) }}" alt="{{post.title}}">
+        {{ form(editForm) }}
+        </div>
+
+
+    </div>
+</body>
