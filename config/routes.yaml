@@ -73,3 +73,7 @@ teoc_lucian:
 catalinRoute:
     path: /catalinchinchisan
     controller: App\Controller\catalinCtrl::init 
+
+pojar_alexandru:
+  path: /pojar_alexandru
+  controller: App\Controller\PojarAlexandru::index
