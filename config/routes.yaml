@@ -93,3 +93,8 @@ editPhoto:
 photoPreview:
   path: /catalinchinchisan/photoGallery/photoPreview?id={id}
   controller: App\Controller\photoGalleryCtrl::photoPreview
+
+pojar_alexandru:
+  path: /pojar_alexandru
+  controller: App\Controller\PojarAlexandru::index
+
