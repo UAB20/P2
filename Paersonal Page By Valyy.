@@ -1,0 +1,25 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch work
+# Your branch is ahead of 'origin/work' by 3 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   config/routes.yaml
+#	new file:   public/css/cotoara_valentin.css
+#	new file:   public/images/Valyy.jpg
+#	new file:   src/Controller/CotoaraValentinController.php
+#	new file:   templates/cotoara_valentin.html.twig
+#
+# Changes not staged for commit:
+#	modified:   .gitignore
+#	modified:   composer.json
+#	modified:   composer.lock
+#	modified:   config/bundles.php
+#	modified:   symfony.lock
+#
+# Untracked files:
+#	composer-setup.php
+#

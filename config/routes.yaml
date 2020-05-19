@@ -73,3 +73,7 @@ teoc_lucian:
 catalinRoute:
     path: /catalinchinchisan
     controller: App\Controller\catalinCtrl::init 
+    
+    cotoara_valentin:
+    path: /cotoara_valentin
+    controller: App\Controller\CotoaraValentin::PersonalPage
