@@ -69,3 +69,23 @@ denis_padureanu:
 catalinRoute:
     path: /catalinchinchisan
     controller: App\Controller\catalinCtrl::init 
+
+photoGallery:
+    path: /catalinchinchisan/photoGallery
+    controller: App\Controller\photoGalleryCtrl::init
+
+galleryNewPhoto:
+  path: /catalinchinchisan/photoGallery/newPhoto
+  controller: App\Controller\photoGalleryCtrl::newImage
+
+galleryDeletePhoto:
+  path: /catalinchinchisan/photoGallery/delete?id={id}
+  controller: App\Controller\photoGalleryCtrl::delete
+
+editPhoto:
+  path: /catalinchinchisan/photoGallery/edit?id={id}
+  controller: App\Controller\photoGalleryCtrl::goToEdit
+
+photoPreview:
+  path: /catalinchinchisan/photoGallery/photoPreview?id={id}
+  controller: App\Controller\photoGalleryCtrl::photoPreview
