@@ -2,7 +2,8 @@
     <div class="container">
         <nav>
             <ul>
-                <li class="{{ app.request.get('_route') == 'app_Bettina' ? 'active' }}"><a href="{{ path('app_Bettina') }}">Pagina personala</a></li>
+                <li class="{{ app.request.get('_route') == 'index' ? 'active' }}"><a href="{{ path('index') }}">Pagina de pornire</a></li>
+                <li class="{{ app.request.get('_route') == 'app_Bettina' ? 'active' }}"><a href="{{ path('app_Bettina') }}">Bettina Elena</a></li>
                 <li class="{{ app.request.get('_route') == 'cristea_ioan' ? 'active' }}"><a href="{{ path('cristea_ioan') }}">Cristea Ioan</a></li>
                 <li class="{{ app.request.get('_route') == 'bunulescu_stefan' ? 'active' }}"><a href="{{ path('bunulescu_stefan') }}">Bunulescu Stefan</a></li>
                 <li class="{{ app.request.get('_route') == 'blog_first_page' ? 'active' }}"><a href="{{ path('blog_first_page') }}">Blog</a></li>

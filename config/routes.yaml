@@ -1,6 +1,6 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
 
 app_Bettina:
   path: /Bettina
@@ -65,6 +65,10 @@ moises_dorin:
 denis_padureanu:
   path: /denis_padureanu
   controller: App\Controller\PadureanuDenis::number
+
+teoc_lucian:
+  path: /teoc_lucian
+  controller: App\Controller\TeocLucianController::personalPage
 
 catalinRoute:
     path: /catalinchinchisan
